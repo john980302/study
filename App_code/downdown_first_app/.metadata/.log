@@ -411,3 +411,58 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-07-15 20:29:06.378 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-07-15 20:29:50.613
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\a'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2019-07-15 20:49:09.228
+!MESSAGE Changed legacy editor ID com.android.ide.eclipse.editors.manifest.ManifestEditor for /downdown_first_app_1/bin/AndroidManifest.xml
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2019-07-15 20:49:09.261
+!MESSAGE No valid Android XML Editor Delegate found for file /downdown_first_app_1/bin/AndroidManifest.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2019-07-15 20:54:11.352
+!MESSAGE No valid Android XML Editor Delegate found for file /downdown_first_app_1/bin/AndroidManifest.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2019-07-15 20:56:28.925
+!MESSAGE No valid Android XML Editor Delegate found for file /downdown_first_app_1/bin/AndroidManifest.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2019-07-15 20:57:12.683
+!MESSAGE No valid Android XML Editor Delegate found for file /downdown_first_app_1/bin/AndroidManifest.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2019-07-15 21:01:52.592
+!MESSAGE No valid Android XML Editor Delegate found for file /downdown_first_app_1/bin/AndroidManifest.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2019-07-15 21:02:16.622
+!MESSAGE No valid Android XML Editor Delegate found for file /downdown_first_app_1/bin/AndroidManifest.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2019-07-15 21:03:18.903
+!MESSAGE No valid Android XML Editor Delegate found for file /downdown_first_app_1/bin/AndroidManifest.xml [Res null, type null]
+!SESSION 2019-07-15 21:04:41.925 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2019-07-15 21:04:58.530
+!MESSAGE No valid Android XML Editor Delegate found for file /downdown_first_app_1/bin/AndroidManifest.xml [Res null, type null]
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-07-15 21:05:04.315
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\a'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
