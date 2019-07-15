@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;downdown_first_app_1/res/drawable-nodpi/전체 등수.png&apos;" deleteContents="false" description="Delete resource &apos;downdown_first_app_1/res/drawable-nodpi/전체 등수.png&apos;" element1="/downdown_first_app_1/res/drawable-nodpi/전체 등수.png" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1562152385079"/>
+</session>

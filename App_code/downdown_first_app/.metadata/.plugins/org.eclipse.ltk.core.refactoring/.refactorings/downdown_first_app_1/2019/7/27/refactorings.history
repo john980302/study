@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;downdown_first_app_1/assets/Untitled 1&apos; to &apos;data&apos;" description="Rename resource &apos;Untitled 1&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="assets/Untitled 1" name="data" stamp="1562151609302" updateReferences="true"/>
+</session>

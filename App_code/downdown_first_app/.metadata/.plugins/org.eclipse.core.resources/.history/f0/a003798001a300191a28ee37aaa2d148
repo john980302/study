@@ -1,0 +1,13 @@
+package com.example.downdown_first_app_1;
+
+public class person_data {
+	
+	private int score;
+	private int eaten_coin;
+	private int coin_sum;
+	
+	public person_data(int score, int eaten_coin){
+		this.score = score;
+		this.eaten_coin = eaten_coin;
+	}
+}
