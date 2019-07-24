@@ -1,0 +1,4 @@
+19.07.08 일지
+
+1. 점수 이름  (Text 부분, Preference)
+2. arrayList 값 수정하기
