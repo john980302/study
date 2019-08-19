@@ -1,0 +1,18 @@
+git 명령어
+
+
+1. 현재 폴더를 git 로컬저장소로 등록하기
+- git init
+- git status
+
+
+2. 변경된 파일을 인덱싱.
+- git add 파일명 (모든 파일은 git add .)
+
+
+3. commit 하기
+- git commit -m "commit 코멘트"
+
+
+4. git push -u [리모트 저장소 이름] [브랜치 이름]
+-> -u 옵션은 생략
