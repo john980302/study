@@ -1,0 +1,13 @@
+19.08.28 일지
+
+1. 안드로이드 <-> php+apache 서버 <-> mysql 로 결정
+
+
+2. 서버에서 띄우는 곳은 /var/www/html 에서 띄운다.
+
+
+3. 서버에서 php+apache 서버랑 mysql이랑 연동 완료.
+
+
+4. 안드로이드+MYSQL+PHP 웹서버 연동 관련 사이트
+https://blog.naver.com/PostView.nhn?blogId=phj8498&logNo=221346945899&parentCategoryNo=&categoryNo=&viewDate=&isShowPopularPosts=false&from=postView
