@@ -1,0 +1,97 @@
+package com.example.downdown_first_app_1;
+
+import java.util.ArrayList;
+
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.ContentValues;
+import android.content.DialogInterface;
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.Window;
+import android.view.WindowManager;
+import android.widget.TextView;
+import android.widget.Toast;
+import android.content.ContentValues;
+import RequestHttpConnection.java
+
+public class MainActivity extends Activity {
+	
+	private final long end_tm = 2000; // 종료시간을 2초로 한다.
+	private long back_tm = 0; // 종료버튼을 선택한 시간을 저장
+	private TextView tv_outPut;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        setContentView(new Img_View1(this));
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        
+        // 위젯에 대한 참조.
+        tv_outPut = (TextView) findViewById(R.id.tv_output);
+        
+        // URL 설정.
+        String url = "http://bestcomsv.cafe24.com/try.php";
+        
+        // AsyncTask를 통해 HttpURLConnection 수행.
+        NetworkTask networkTask = new NetworkTask(url, null);
+        networkTask.execute();
+        
+    }
+    
+    @Override
+    protected void onDestroy(){
+    	super.onDestroy();
+    }
+    
+    // 뒤로가기 버튼을 선택하면 아래 명령을 실행한다.
+    @Override
+    public void onBackPressed(){
+    	//뒤로가기 버튼을 선택하면 AlertDialog가 보인다.
+    	new AlertDialog.Builder(this)
+    	.setIcon(android.R.drawable.ic_dialog_alert) // 경고아이콘이 보인다.
+    	.setTitle("종료") // 메세지 제목은 종료
+    	.setMessage("앱을 종료하시겠습니까?") //메세지를 출력
+    	.setNegativeButton("Yes",new DialogInterface.OnClickListener() // yes를 선택하면 종료
+    	{
+    		@Override
+    		public void onClick(DialogInterface dialog, int which){
+    			finish(); // yes를 선택하면 앱을 종료한다.
+    		}
+    	})
+    	.setPositiveButton("No",null) // no를 선택하면 아무런 동작 없음
+    	.show();
+    }
+    
+    public class NetworkTask extends AsyncTask<Void, Void, String> {
+    	
+    	private String url;
+    	private ContentValues values;
+    	
+    	public NetworkTask(String url, ContentValues values) {
+    		
+    		this.url = url;
+    		this.values = values;
+    	}
+    	
+    	@Override
+    	protected String doInBackground(Void... params) {
+    		
+    		String result; // 요청 결과를 저장할 변수.
+    		RequestHttpURLConnection requestHttpURLConnection = new RequestHttpURLConnection();
+    		result = requestHttpURLConnection.request(url, values); // 해당 URL로 부터 결과물을 얻어온다.
+    		
+    		return result;
+    	}
+    	
+    	@Override
+    	protected void onPostExecute(String s) {
+    		super.onPostExecute(s);
+    		
+    		// doInBackground()로부터 리턴된 값이 onPostExecute()의 매개변수로 넘어오므로 s를 출력한다.
+    		tv_output.setText(s);
+    	}
+    }
+}
