@@ -1,0 +1,6 @@
+19.10.10 일지
+
+1. 구글계정로그인 API 연동하다가 오류가 남.
+1-1) 관련 사이트: https://m.blog.naver.com/PostView.nhn?blogId=hantacrew&logNo=220044209645&proxyReferer=https%3A%2F%2Fwww.google.com%2F
+
+2. 구글계정로그인 성공시 구글플레이스토어에 등록해보기.

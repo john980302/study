@@ -26,7 +26,6 @@
 <fullyQualifiedTypeName name="java.nio.ByteBuffer"/>
 <fullyQualifiedTypeName name="java.nio.ByteOrder"/>
 <fullyQualifiedTypeName name="android.util.Log"/>
-<fullyQualifiedTypeName name="com.example.downdown_first_app_1.R.id"/>
 <fullyQualifiedTypeName name="android.widget.TextView"/>
 <fullyQualifiedTypeName name="android.os.AsyncTask"/>
 <fullyQualifiedTypeName name="android.content.ContentValues"/>
@@ -47,4 +46,7 @@
 <fullyQualifiedTypeName name="android.os.StrictMode.ThreadPolicy.Builder"/>
 <fullyQualifiedTypeName name="java.net.URL"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="com.example.downdown_first_app_1.R.drawable"/>
+<fullyQualifiedTypeName name="android.widget.EditText"/>
+<fullyQualifiedTypeName name="com.example.downdown_first_app_1.R.id"/>
 </qualifiedTypeNameHistroy>
